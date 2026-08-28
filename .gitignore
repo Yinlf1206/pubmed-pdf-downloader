@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- IDE / editors ----
+.idea/
+.vscode/
+*.iml
+
+# ---- Edge WebDriver (download manually - version-specific binary) ----
+msedgedriver.exe
+*.exe
+
+# ---- Runtime output: downloaded PDFs, reports, logs, data ----
+*.pdf
+*.xlsx
+*.log
+re-download*/
+FAD_PMC*/
+PubMedPDFs/
+SciHubPDFs/
+
+# ---- working data ----
+id_conv_before.csv
+id_conv_after.csv
+PMC-ids.csv
+download_report*/
