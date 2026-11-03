@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### 2. Edge WebDriver (critical)
 
 Download the `msedgedriver.exe` matching your installed Edge version from the
-[Microsoft Edge WebDriver page](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) and place it in the **same folder as `pubmed_downloader.py`**.
+[Microsoft Edge WebDriver page](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) (or [Microsoft Edge - Webdriver](https://msedgedriver.microsoft.com/catalog/index.html)) and place it in the **same folder as `pubmed_downloader.py`**.
 
 > Version mismatch (`SessionNotCreatedException`) after an Edge auto-update is the most common failure — just re-download the matching driver.
 
